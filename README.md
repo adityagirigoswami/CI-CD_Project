@@ -24,7 +24,7 @@ This project automates the end-to-end deployment of a web application using **Je
 - **Instance Type:** t2.medium  
 - **Allowed Ports:** 80, 443  
 
-![Visual](/Assests/visual.png)
+![Visual](/visual.png)
 
 ---
 
@@ -40,7 +40,7 @@ This project automates the end-to-end deployment of a web application using **Je
 ---
 
 ## 🏗️ Project Architecture
-![Deployed Application](/Assests/Project%20Architecture.jpg)
+![Deployed Application](/Project%20Architecture.jpg)
 
 ## 🎯 Expected Outcomes
 - ✅ Successful deployment of the application on AWS EC2 using Docker and Ansible.  
@@ -49,7 +49,7 @@ This project automates the end-to-end deployment of a web application using **Je
 - ✅ Docker container accessible via the public IP or domain on port **80** using NodePort.  
 - ✅ Hands-on experience with managing CI/CD pipelines, Docker containerization, and Ansible playbook execution.  
 - ✅ Done! Your web application is now successfully deployed and running on the target server! 🎉  
-![Deployed Application](/Assests/Deployed-Application.png)
+![Deployed Application](/Deployed-Application.png)
 
 
 ---
@@ -67,8 +67,6 @@ This project automates the end-to-end deployment of a web application using **Je
 
 ### 2. 🛠️ Configure Ansible Server
 - Configured Ansible and Docker.
-![Image2](/Assests/Docker-Setup.png)
-![Image2](/Assests/Jenkins-Setup.png) 
 - Established **passwordless authentication** using `ssh-keygen` between:
   - Jenkins Server → Ansible Server
   - Ansible Server → Docker/Web Server
@@ -166,8 +164,6 @@ pipeline {
 ```
 
 ## ⚓️ Sucessfull Deployed Pipleline 
-![Image2](/Assests/Pipeline1.png)
-![Image2](/Assests/Pipeline2.png)
 
 ---
 
@@ -207,7 +203,7 @@ git clone https://github.com/adityagirigoswami/CI-CD_Project.git
 ## 📡 Live Website Access
 
 - **Public IP of Docker Server:** `http://<docker-server-public-ip>`  
-![Deployed Application](/Assests/Deployed-Application.png)
+![Deployed Application](/Deployed-Application.png)
 - The application becomes accessible after a successful Jenkins build and Ansible deployment.
 
 ---
