@@ -10,7 +10,7 @@ RUN yum install -y httpd zip wget
 
 WORKDIR /var/www/html
 
-RUN wget https://www.free-css.com/assets/files/free-css-templates/download/page290/brainwave.zip
+RUN wget https://templatemo.com/download/templatemo_591_villa_agency
 
 RUN unzip brainwave.zip
 
